@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_849946f06aa947caf33a9000aab5a225 {
+                #map_aa54c4db6ccc493b955d186b3e68c6b2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
     
                 <style>
-                    #float_image_0f355553d41f88b416c2c5f9c41cd65c {
+                    #float_image_147a6e18b5b0a050ab0897d7ddc3570a {
                         position: absolute;
                         bottom: 75%;
                         left: 2%;
@@ -54,7 +54,7 @@
             
     
                 <style>
-                    #float_image_88a39ec2750519f30f8938f0ac36f85c {
+                    #float_image_473bb4bfbc889a681c263ee219ccb6fc {
                         position: absolute;
                         bottom: 75%;
                         left: 2%;
@@ -67,16 +67,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_849946f06aa947caf33a9000aab5a225" ></div>
+            <div class="folium-map" id="map_aa54c4db6ccc493b955d186b3e68c6b2" ></div>
         
     
-            <img id="float_image_0f355553d41f88b416c2c5f9c41cd65c" alt="float_image"
+            <img id="float_image_147a6e18b5b0a050ab0897d7ddc3570a" alt="float_image"
                  src="https://www.iter.es/wp-content/uploads/2016/05/logo.png"
                  style="z-index: 999999">
             </img>
             
     
-            <img id="float_image_88a39ec2750519f30f8938f0ac36f85c" alt="float_image"
+            <img id="float_image_473bb4bfbc889a681c263ee219ccb6fc" alt="float_image"
                  src="https://involcan.org/wp-content/uploads/2021/09/Logo.png"
                  style="z-index: 999999">
             </img>
@@ -85,8 +85,8 @@
 <script>
     
     
-            var map_849946f06aa947caf33a9000aab5a225 = L.map(
-                "map_849946f06aa947caf33a9000aab5a225",
+            var map_aa54c4db6ccc493b955d186b3e68c6b2 = L.map(
+                "map_aa54c4db6ccc493b955d186b3e68c6b2",
                 {
                     center: [28.41011937077143, -16.663866738814285],
                     crs: L.CRS.EPSG3857,
@@ -100,33 +100,33 @@
 
         
     
-            var tile_layer_ccc0ee378cde8cd99a208e3928fb49d7 = L.tileLayer(
+            var tile_layer_e40591076df63b316c2e5e5df6c0bba0 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_ccc0ee378cde8cd99a208e3928fb49d7.addTo(map_849946f06aa947caf33a9000aab5a225);
+            tile_layer_e40591076df63b316c2e5e5df6c0bba0.addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var mouse_position_1c3ae7ae4c7335d6b951a71b214bb1bd = new L.Control.MousePosition(
+            var mouse_position_84274e0f91be2b9d6f44eeed0c78889e = new L.Control.MousePosition(
                 {"emptyString": "Unavailable", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "", "separator": " : "}
             );
-            mouse_position_1c3ae7ae4c7335d6b951a71b214bb1bd.options["latFormatter"] =
+            mouse_position_84274e0f91be2b9d6f44eeed0c78889e.options["latFormatter"] =
                 undefined;
-            mouse_position_1c3ae7ae4c7335d6b951a71b214bb1bd.options["lngFormatter"] =
+            mouse_position_84274e0f91be2b9d6f44eeed0c78889e.options["lngFormatter"] =
                 undefined;
-            map_849946f06aa947caf33a9000aab5a225.addControl(mouse_position_1c3ae7ae4c7335d6b951a71b214bb1bd);
+            map_aa54c4db6ccc493b955d186b3e68c6b2.addControl(mouse_position_84274e0f91be2b9d6f44eeed0c78889e);
         
     
             L.control.fullscreen(
                 {"forceSeparateButton": false, "position": "topleft", "title": "Full Screen", "titleCancel": "Exit Full Screen"}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var measure_control_f02cc503e44ead6246823f49b80ba6af = new L.Control.Measure(
+            var measure_control_9252b160d71d25cad92eb3bf14626bfc = new L.Control.Measure(
                 {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "kilometers", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
-            map_849946f06aa947caf33a9000aab5a225.addControl(measure_control_f02cc503e44ead6246823f49b80ba6af);
+            map_aa54c4db6ccc493b955d186b3e68c6b2.addControl(measure_control_9252b160d71d25cad92eb3bf14626bfc);
 
             // Workaround for using this plugin with Leaflet>=1.8.0
             // https://github.com/ljagis/leaflet-measure/issues/171
@@ -145,34 +145,34 @@
 
         
     
-            var marker_0a33300dc8cf7f834161f84dc6527bcc = L.marker(
+            var marker_1f2c7107d8c1d28d762a84c96e4b8c94 = L.marker(
                 [28.5009917771, -17.8350989808],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_585f4c052636bc7a48f8c764f1da847d = L.AwesomeMarkers.icon(
+            var icon_3afd8596fdf7d28341356dc505dc8777 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "gas-pump", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_0a33300dc8cf7f834161f84dc6527bcc.setIcon(icon_585f4c052636bc7a48f8c764f1da847d);
+            marker_1f2c7107d8c1d28d762a84c96e4b8c94.setIcon(icon_3afd8596fdf7d28341356dc505dc8777);
         
     
-        var popup_3b890f4035c394bca3ebca955555d6d0 = L.popup({"maxWidth": 700});
+        var popup_785c0b6981d276a8047044900279521f = L.popup({"maxWidth": 700});
 
         
             
-                var html_db4bb2f9b36544778ff2c7d5b750d55b = $(`<div id="html_db4bb2f9b36544778ff2c7d5b750d55b" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>PCAN Fuencaliente</td>         <td><a href="https://www.google.com/maps?q=28.5009917771,-17.8350989808" target="_blank">Ctra. General, Km 24, 38740</a></td>         <td>922444444</td>         <td><a href="mailto:fuencaliente@pcan.es">fuencaliente@pcan.es</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
-                popup_3b890f4035c394bca3ebca955555d6d0.setContent(html_db4bb2f9b36544778ff2c7d5b750d55b);
+                var html_fbb50c51d2fdc48b18d93df8b88ea543 = $(`<div id="html_fbb50c51d2fdc48b18d93df8b88ea543" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>PCAN Fuencaliente</td>         <td><a href="https://www.google.com/maps?q=28.5009917771,-17.8350989808" target="_blank">Ctra. General, Km 24, 38740</a></td>         <td>922444444</td>         <td><a href="mailto:fuencaliente@pcan.es">fuencaliente@pcan.es</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
+                popup_785c0b6981d276a8047044900279521f.setContent(html_fbb50c51d2fdc48b18d93df8b88ea543);
             
         
 
-        marker_0a33300dc8cf7f834161f84dc6527bcc.bindPopup(popup_3b890f4035c394bca3ebca955555d6d0)
+        marker_1f2c7107d8c1d28d762a84c96e4b8c94.bindPopup(popup_785c0b6981d276a8047044900279521f)
         ;
 
         
     
     
-            marker_0a33300dc8cf7f834161f84dc6527bcc.bindTooltip(
+            marker_1f2c7107d8c1d28d762a84c96e4b8c94.bindTooltip(
                 `<div>
                      PCAN Fuencaliente
                  </div>`,
@@ -180,34 +180,34 @@
             );
         
     
-            var marker_10edfba250909e181422e4ba60324f3f = L.marker(
+            var marker_bb7bc5c1ef1da71c16dae66c0aae62b4 = L.marker(
                 [28.6588315924, -17.9163885128],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_4af6c8217116999c6415c468779efa87 = L.AwesomeMarkers.icon(
+            var icon_bd939f4632c97b58f620fd0495658931 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "gas-pump", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_10edfba250909e181422e4ba60324f3f.setIcon(icon_4af6c8217116999c6415c468779efa87);
+            marker_bb7bc5c1ef1da71c16dae66c0aae62b4.setIcon(icon_bd939f4632c97b58f620fd0495658931);
         
     
-        var popup_47894cd2cadce14eb52eba9c0e157ad6 = L.popup({"maxWidth": 700});
+        var popup_5c25be5dd43c1bc26ac8fd85daf59900 = L.popup({"maxWidth": 700});
 
         
             
-                var html_8fcbc952ddec27a1994054a576ff7464 = $(`<div id="html_8fcbc952ddec27a1994054a576ff7464" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>DISA Los Llanos</td>         <td><a href="https://www.google.com/maps?q=28.6588315924,-17.9163885128" target="_blank">Av. Carlos Francisco Lorenzo Navarro, 62, 38760</a></td>         <td>922462668</td>         <td><a href="mailto:atencionclientes@disagrupo.es">atencionclientes@disagrupo.es</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
-                popup_47894cd2cadce14eb52eba9c0e157ad6.setContent(html_8fcbc952ddec27a1994054a576ff7464);
+                var html_d9993b822e650ad6fd3999087ff1b0b0 = $(`<div id="html_d9993b822e650ad6fd3999087ff1b0b0" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>DISA Los Llanos</td>         <td><a href="https://www.google.com/maps?q=28.6588315924,-17.9163885128" target="_blank">Av. Carlos Francisco Lorenzo Navarro, 62, 38760</a></td>         <td>922462668</td>         <td><a href="mailto:atencionclientes@disagrupo.es">atencionclientes@disagrupo.es</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
+                popup_5c25be5dd43c1bc26ac8fd85daf59900.setContent(html_d9993b822e650ad6fd3999087ff1b0b0);
             
         
 
-        marker_10edfba250909e181422e4ba60324f3f.bindPopup(popup_47894cd2cadce14eb52eba9c0e157ad6)
+        marker_bb7bc5c1ef1da71c16dae66c0aae62b4.bindPopup(popup_5c25be5dd43c1bc26ac8fd85daf59900)
         ;
 
         
     
     
-            marker_10edfba250909e181422e4ba60324f3f.bindTooltip(
+            marker_bb7bc5c1ef1da71c16dae66c0aae62b4.bindTooltip(
                 `<div>
                      DISA Los Llanos
                  </div>`,
@@ -215,34 +215,34 @@
             );
         
     
-            var marker_bdb9404c3c5d2463e08be3fbc6643a09 = L.marker(
+            var marker_6fe5d771a61d274820c76938c0bc14d1 = L.marker(
                 [28.0706725785, -16.5111222604],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_2c0c8f7a564c1c5eb942ebd8613b86a7 = L.AwesomeMarkers.icon(
+            var icon_92614f4e5df145a8172ad25dabc10de7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "gas-pump", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_bdb9404c3c5d2463e08be3fbc6643a09.setIcon(icon_2c0c8f7a564c1c5eb942ebd8613b86a7);
+            marker_6fe5d771a61d274820c76938c0bc14d1.setIcon(icon_92614f4e5df145a8172ad25dabc10de7);
         
     
-        var popup_7c8b8562cf9cf42b9a2d85621cc96577 = L.popup({"maxWidth": 700});
+        var popup_f3898ae1157c940d7836dd86e2620623 = L.popup({"maxWidth": 700});
 
         
             
-                var html_bfa8e38c6ad9090f7a80c148682304bc = $(`<div id="html_bfa8e38c6ad9090f7a80c148682304bc" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>ITER SEAFUEL</td>         <td><a href="https://www.google.com/maps?q=28.0706725785,-16.5111222604" target="_blank">38612 Granadilla // Llamar a Chuchi: 627963914</a></td>         <td>627963914</td>         <td><a href="mailto:info@seafuel.eu">info@seafuel.eu</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
-                popup_7c8b8562cf9cf42b9a2d85621cc96577.setContent(html_bfa8e38c6ad9090f7a80c148682304bc);
+                var html_6c7d5d242ffa51ba5d7d88dd730fdf7d = $(`<div id="html_6c7d5d242ffa51ba5d7d88dd730fdf7d" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>ITER SEAFUEL</td>         <td><a href="https://www.google.com/maps?q=28.0706725785,-16.5111222604" target="_blank">38612 Granadilla // Llamar a Chuchi: 627963914</a></td>         <td>627963914</td>         <td><a href="mailto:info@seafuel.eu">info@seafuel.eu</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
+                popup_f3898ae1157c940d7836dd86e2620623.setContent(html_6c7d5d242ffa51ba5d7d88dd730fdf7d);
             
         
 
-        marker_bdb9404c3c5d2463e08be3fbc6643a09.bindPopup(popup_7c8b8562cf9cf42b9a2d85621cc96577)
+        marker_6fe5d771a61d274820c76938c0bc14d1.bindPopup(popup_f3898ae1157c940d7836dd86e2620623)
         ;
 
         
     
     
-            marker_bdb9404c3c5d2463e08be3fbc6643a09.bindTooltip(
+            marker_6fe5d771a61d274820c76938c0bc14d1.bindTooltip(
                 `<div>
                      ITER SEAFUEL
                  </div>`,
@@ -250,34 +250,34 @@
             );
         
     
-            var marker_3242d122fd9d0093072e72583e24eb1d = L.marker(
+            var marker_df8072e5c170add6cca1c46514586a4f = L.marker(
                 [28.0735190277, -16.5345617401],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_fd593b974b120ce11adb651aa0bc6807 = L.AwesomeMarkers.icon(
+            var icon_f0baab2a781874df63c7c085caf2b781 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "gas-pump", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_3242d122fd9d0093072e72583e24eb1d.setIcon(icon_fd593b974b120ce11adb651aa0bc6807);
+            marker_df8072e5c170add6cca1c46514586a4f.setIcon(icon_f0baab2a781874df63c7c085caf2b781);
         
     
-        var popup_05a9d0ae1a3eba0805a8e2e71d53e05a = L.popup({"maxWidth": 700});
+        var popup_d056283c353ec5eadd41fd15bb4f7987 = L.popup({"maxWidth": 700});
 
         
             
-                var html_64fa33dbeae9026805e3e0c0a1fbd2e5 = $(`<div id="html_64fa33dbeae9026805e3e0c0a1fbd2e5" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Repsol Chasnera</td>         <td><a href="https://www.google.com/maps?q=28.0735190277,-16.5345617401" target="_blank">TF-1, 54, 38611</a></td>         <td>922390333</td>         <td><a href="mailto:saceess@repsol.com">saceess@repsol.com</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
-                popup_05a9d0ae1a3eba0805a8e2e71d53e05a.setContent(html_64fa33dbeae9026805e3e0c0a1fbd2e5);
+                var html_19392f622e9017f48512e4857bc76c5d = $(`<div id="html_19392f622e9017f48512e4857bc76c5d" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Repsol Chasnera</td>         <td><a href="https://www.google.com/maps?q=28.0735190277,-16.5345617401" target="_blank">TF-1, 54, 38611</a></td>         <td>922390333</td>         <td><a href="mailto:saceess@repsol.com">saceess@repsol.com</a></td>         <td>NA</td>     </tr>     </table></div>`)[0];
+                popup_d056283c353ec5eadd41fd15bb4f7987.setContent(html_19392f622e9017f48512e4857bc76c5d);
             
         
 
-        marker_3242d122fd9d0093072e72583e24eb1d.bindPopup(popup_05a9d0ae1a3eba0805a8e2e71d53e05a)
+        marker_df8072e5c170add6cca1c46514586a4f.bindPopup(popup_d056283c353ec5eadd41fd15bb4f7987)
         ;
 
         
     
     
-            marker_3242d122fd9d0093072e72583e24eb1d.bindTooltip(
+            marker_df8072e5c170add6cca1c46514586a4f.bindTooltip(
                 `<div>
                      Repsol Chasnera
                  </div>`,
@@ -285,34 +285,34 @@
             );
         
     
-            var marker_c906b267c6298f6aa4785deac9b70d2d = L.marker(
+            var marker_1977fe0984c7434d4742d062dc8e2685 = L.marker(
                 [28.4692500766, -16.2958333529],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_b018ba0ea676cf09a7343fae9c6c0396 = L.AwesomeMarkers.icon(
+            var icon_a6090f7bc873a1644718c14c783c33c5 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
             );
-            marker_c906b267c6298f6aa4785deac9b70d2d.setIcon(icon_b018ba0ea676cf09a7343fae9c6c0396);
+            marker_1977fe0984c7434d4742d062dc8e2685.setIcon(icon_a6090f7bc873a1644718c14c783c33c5);
         
     
-        var popup_7df4c28bb3eadb61cfaf5821f349316c = L.popup({"maxWidth": 700});
+        var popup_1fa1fbdda06dde50d167fb7b452e055c = L.popup({"maxWidth": 700});
 
         
             
-                var html_5201879a720c69f5b59e4c58a6f63829 = $(`<div id="html_5201879a720c69f5b59e4c58a6f63829" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Repuestos Andres S L</td>         <td><a href="https://www.google.com/maps?q=28.4692500766,-16.2958333529" target="_blank">C. Rectora Maria Luisa Tejedor Salguero, s/n, Local 2, 38320</a></td>         <td>922645353</td>         <td><a href="mailto:info@repuestosandres.com">info@repuestosandres.com</a></td>         <td>A000190</td>     </tr>     </table></div>`)[0];
-                popup_7df4c28bb3eadb61cfaf5821f349316c.setContent(html_5201879a720c69f5b59e4c58a6f63829);
+                var html_88265a2f722a7aa23d1b3e8ff62a57af = $(`<div id="html_88265a2f722a7aa23d1b3e8ff62a57af" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Repuestos Andres S L</td>         <td><a href="https://www.google.com/maps?q=28.4692500766,-16.2958333529" target="_blank">C. Rectora Maria Luisa Tejedor Salguero, s/n, Local 2, 38320</a></td>         <td>922645353</td>         <td><a href="mailto:info@repuestosandres.com">info@repuestosandres.com</a></td>         <td>A000190</td>     </tr>     </table></div>`)[0];
+                popup_1fa1fbdda06dde50d167fb7b452e055c.setContent(html_88265a2f722a7aa23d1b3e8ff62a57af);
             
         
 
-        marker_c906b267c6298f6aa4785deac9b70d2d.bindPopup(popup_7df4c28bb3eadb61cfaf5821f349316c)
+        marker_1977fe0984c7434d4742d062dc8e2685.bindPopup(popup_1fa1fbdda06dde50d167fb7b452e055c)
         ;
 
         
     
     
-            marker_c906b267c6298f6aa4785deac9b70d2d.bindTooltip(
+            marker_1977fe0984c7434d4742d062dc8e2685.bindTooltip(
                 `<div>
                      Repuestos Andres S L
                  </div>`,
@@ -320,34 +320,34 @@
             );
         
     
-            var marker_723a51598474ba07c5543a55d3aef69b = L.marker(
+            var marker_82d566b0b9d6162e1beb3e5fd006055d = L.marker(
                 [28.657547444, -17.9070702327],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_bf43bd9e718704234793f13b98e72c96 = L.AwesomeMarkers.icon(
+            var icon_9d08ce16b41b2a7de8a305127436dae0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
             );
-            marker_723a51598474ba07c5543a55d3aef69b.setIcon(icon_bf43bd9e718704234793f13b98e72c96);
+            marker_82d566b0b9d6162e1beb3e5fd006055d.setIcon(icon_9d08ce16b41b2a7de8a305127436dae0);
         
     
-        var popup_081fb0092a964b3ec12bad72ef60d788 = L.popup({"maxWidth": 700});
+        var popup_bdf7283cdaa0629007424a5b4de560b3 = L.popup({"maxWidth": 700});
 
         
             
-                var html_4c86553c81cb4d8c0bf68ea6226454d8 = $(`<div id="html_4c86553c81cb4d8c0bf68ea6226454d8" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Taller Cutillas Renault</td>         <td><a href="https://www.google.com/maps?q=28.657547444,-17.9070702327" target="_blank">C. la Carrilla, 17, 38760</a></td>         <td>630856920</td>         <td><a href="mailto:alexispulido@tallercutillas.com, sandra@tallercutillas.com">alexispulido@tallercutillas.com, sandra@tallercutillas.com</a></td>         <td>REVISAR</td>     </tr>     </table></div>`)[0];
-                popup_081fb0092a964b3ec12bad72ef60d788.setContent(html_4c86553c81cb4d8c0bf68ea6226454d8);
+                var html_3edeee07ab049ae47bfab856ecf7d64b = $(`<div id="html_3edeee07ab049ae47bfab856ecf7d64b" style="width: 100.0%; height: 100.0%;">     <table style="width: 525px; height: 50px">         <tr>             <th>Nombre</th>             <th>Localizacion</th>             <th>Telefono</th>             <th>Correo</th>             <th>ID proveedor</th>         </tr>          <tr>         <td>Taller Cutillas Renault</td>         <td><a href="https://www.google.com/maps?q=28.657547444,-17.9070702327" target="_blank">C. la Carrilla, 17, 38760</a></td>         <td>630856920</td>         <td><a href="mailto:alexispulido@tallercutillas.com, sandra@tallercutillas.com">alexispulido@tallercutillas.com, sandra@tallercutillas.com</a></td>         <td>REVISAR</td>     </tr>     </table></div>`)[0];
+                popup_bdf7283cdaa0629007424a5b4de560b3.setContent(html_3edeee07ab049ae47bfab856ecf7d64b);
             
         
 
-        marker_723a51598474ba07c5543a55d3aef69b.bindPopup(popup_081fb0092a964b3ec12bad72ef60d788)
+        marker_82d566b0b9d6162e1beb3e5fd006055d.bindPopup(popup_bdf7283cdaa0629007424a5b4de560b3)
         ;
 
         
     
     
-            marker_723a51598474ba07c5543a55d3aef69b.bindTooltip(
+            marker_82d566b0b9d6162e1beb3e5fd006055d.bindTooltip(
                 `<div>
                      Taller Cutillas Renault
                  </div>`,
@@ -355,34 +355,34 @@
             );
         
     
-            var marker_0aa6ca937d96b0b6cf182ee2617cffe6 = L.marker(
+            var marker_28a3ae7f2d2b0364e4349b712e1401b9 = L.marker(
                 [28.0704947816, -16.513258109],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_848814785bad2bba2adb606a4b10b2e4 = L.AwesomeMarkers.icon(
+            var icon_1e6e50fb1c8eff3f5c49b1ae0dcea122 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_0aa6ca937d96b0b6cf182ee2617cffe6.setIcon(icon_848814785bad2bba2adb606a4b10b2e4);
+            marker_28a3ae7f2d2b0364e4349b712e1401b9.setIcon(icon_1e6e50fb1c8eff3f5c49b1ae0dcea122);
         
     
-        var popup_16a700aca36d2bf8692b465263f95bca = L.popup({"maxWidth": 700});
+        var popup_dca51fc7397375599f8c8ba43ccee505 = L.popup({"maxWidth": 700});
 
         
             
-                var html_33d97f8b23bfada11d60b9c667aaea59 = $(`<div id="html_33d97f8b23bfada11d60b9c667aaea59" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Renault Kangoo</td>             <td>5155KGM</td>             <td style="color: green">ACTIVO</td>             <td>ITER </td>             <td>15/11/2023</td>             <td>16/01/2025</td>             <td>8-22509337-T</td>         </tr>         </table></div>`)[0];
-                popup_16a700aca36d2bf8692b465263f95bca.setContent(html_33d97f8b23bfada11d60b9c667aaea59);
+                var html_681ba6c046d3f0c8eeeafa53bdff8a16 = $(`<div id="html_681ba6c046d3f0c8eeeafa53bdff8a16" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Renault Kangoo</td>             <td>5155KGM</td>             <td style="color: green">ACTIVO</td>             <td>ITER </td>             <td>15/11/2023</td>             <td>16/01/2025</td>             <td>8-22509337-T</td>         </tr>         </table></div>`)[0];
+                popup_dca51fc7397375599f8c8ba43ccee505.setContent(html_681ba6c046d3f0c8eeeafa53bdff8a16);
             
         
 
-        marker_0aa6ca937d96b0b6cf182ee2617cffe6.bindPopup(popup_16a700aca36d2bf8692b465263f95bca)
+        marker_28a3ae7f2d2b0364e4349b712e1401b9.bindPopup(popup_dca51fc7397375599f8c8ba43ccee505)
         ;
 
         
     
     
-            marker_0aa6ca937d96b0b6cf182ee2617cffe6.bindTooltip(
+            marker_28a3ae7f2d2b0364e4349b712e1401b9.bindTooltip(
                 `<div>
                      ITER
                  </div>`,
@@ -390,34 +390,34 @@
             );
         
     
-            var marker_09017f689347f818e186d2bc788fa9a8 = L.marker(
+            var marker_adec46f72f8d08dee89c7cbf89bdb081 = L.marker(
                 [28.407250636, -16.5476893132],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_a406daa6a1a295110022644d6f3fa4f5 = L.AwesomeMarkers.icon(
+            var icon_dd5717ae982f11069792f92b8d45f8ea = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_09017f689347f818e186d2bc788fa9a8.setIcon(icon_a406daa6a1a295110022644d6f3fa4f5);
+            marker_adec46f72f8d08dee89c7cbf89bdb081.setIcon(icon_dd5717ae982f11069792f92b8d45f8ea);
         
     
-        var popup_334ff454309b2a05bdf22316f79f5fb1 = L.popup({"maxWidth": 700});
+        var popup_b5e713be8e0cd367ade2467b7f6f7a70 = L.popup({"maxWidth": 700});
 
         
             
-                var html_4d00351e8b04a5f33676f0586d68e91f = $(`<div id="html_4d00351e8b04a5f33676f0586d68e91f" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Ford RANGER</td>             <td>9175KJR</td>             <td style="color: green">ACTIVO</td>             <td>Los Llanos, PCAN Fuenca / Chasnera</td>             <td>01/04/2024</td>             <td>23/04/2025</td>             <td>8-22508792-C</td>         </tr>                  <tr>             <td>Renault Kangoo</td>             <td>5195KGM</td>             <td style="color: green">ACTIVO</td>             <td>ITER, Los Llanos, PCAN Fuenca</td>             <td>11/09/2023</td>             <td>16/01/2025</td>             <td>8-22509333-W</td>         </tr>                  <tr>             <td>Renault Master</td>             <td>8122BHB</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>24/08/2023</td>             <td>01/10/2024</td>             <td>8-21635872-Q</td>         </tr>         </table></div>`)[0];
-                popup_334ff454309b2a05bdf22316f79f5fb1.setContent(html_4d00351e8b04a5f33676f0586d68e91f);
+                var html_77fc681c0ae58f24ab728ec4b2d8dcb8 = $(`<div id="html_77fc681c0ae58f24ab728ec4b2d8dcb8" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Ford RANGER</td>             <td>9175KJR</td>             <td style="color: green">ACTIVO</td>             <td>Los Llanos, PCAN Fuenca / Chasnera</td>             <td>01/04/2024</td>             <td>23/04/2025</td>             <td>8-22508792-C</td>         </tr>                  <tr>             <td>Renault Kangoo</td>             <td>5195KGM</td>             <td style="color: green">ACTIVO</td>             <td>ITER, Los Llanos, PCAN Fuenca</td>             <td>11/09/2023</td>             <td>16/01/2025</td>             <td>8-22509333-W</td>         </tr>                  <tr>             <td>Renault Master</td>             <td>8122BHB</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>24/08/2023</td>             <td>01/10/2024</td>             <td>8-21635872-Q</td>         </tr>         </table></div>`)[0];
+                popup_b5e713be8e0cd367ade2467b7f6f7a70.setContent(html_77fc681c0ae58f24ab728ec4b2d8dcb8);
             
         
 
-        marker_09017f689347f818e186d2bc788fa9a8.bindPopup(popup_334ff454309b2a05bdf22316f79f5fb1)
+        marker_adec46f72f8d08dee89c7cbf89bdb081.bindPopup(popup_b5e713be8e0cd367ade2467b7f6f7a70)
         ;
 
         
     
     
-            marker_09017f689347f818e186d2bc788fa9a8.bindTooltip(
+            marker_adec46f72f8d08dee89c7cbf89bdb081.bindTooltip(
                 `<div>
                      Taoro
                  </div>`,
@@ -425,34 +425,34 @@
             );
         
     
-            var marker_fa4c13be1e342ee27824a8958a7eef76 = L.marker(
+            var marker_f02d65c003e9612cde63f8a9e39bf67a = L.marker(
                 [28.6458262442, -17.9011175359],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_99e4e073bade983c968f010ef1d1bea6 = L.AwesomeMarkers.icon(
+            var icon_296ba482b1b4b9b5d2ac3d9051afade3 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_fa4c13be1e342ee27824a8958a7eef76.setIcon(icon_99e4e073bade983c968f010ef1d1bea6);
+            marker_f02d65c003e9612cde63f8a9e39bf67a.setIcon(icon_296ba482b1b4b9b5d2ac3d9051afade3);
         
     
-        var popup_a4998c478962a65c5ac3bdac07480c04 = L.popup({"maxWidth": 700});
+        var popup_6661593cb91cb09764d88dbbc87da0d0 = L.popup({"maxWidth": 700});
 
         
             
-                var html_2d1f499d20bd77905dd0afab37170614 = $(`<div id="html_2d1f499d20bd77905dd0afab37170614" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Ford RANGER</td>             <td>9286KJR</td>             <td style="color: red">INACTIVO</td>             <td>Los Llanos, PCAN Fuenca / Chasnera</td>             <td>23/10/2023</td>             <td>28/03/2025</td>             <td>8-22508799-L</td>         </tr>         </table></div>`)[0];
-                popup_a4998c478962a65c5ac3bdac07480c04.setContent(html_2d1f499d20bd77905dd0afab37170614);
+                var html_4780ad5738ffc90e2472a0226e239a1e = $(`<div id="html_4780ad5738ffc90e2472a0226e239a1e" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Ford RANGER</td>             <td>9286KJR</td>             <td style="color: red">INACTIVO</td>             <td>Los Llanos, PCAN Fuenca / Chasnera</td>             <td>23/10/2023</td>             <td>28/03/2025</td>             <td>8-22508799-L</td>         </tr>         </table></div>`)[0];
+                popup_6661593cb91cb09764d88dbbc87da0d0.setContent(html_4780ad5738ffc90e2472a0226e239a1e);
             
         
 
-        marker_fa4c13be1e342ee27824a8958a7eef76.bindPopup(popup_a4998c478962a65c5ac3bdac07480c04)
+        marker_f02d65c003e9612cde63f8a9e39bf67a.bindPopup(popup_6661593cb91cb09764d88dbbc87da0d0)
         ;
 
         
     
     
-            marker_fa4c13be1e342ee27824a8958a7eef76.bindTooltip(
+            marker_f02d65c003e9612cde63f8a9e39bf67a.bindTooltip(
                 `<div>
                      LP
                  </div>`,
@@ -460,34 +460,34 @@
             );
         
     
-            var marker_9388af09bd3428e6d4c28fe1a3a27ecd = L.marker(
+            var marker_828c10122af3f1dc58feb4652de2a067 = L.marker(
                 [28.4663813308, -16.2948117936],
                 {}
-            ).addTo(map_849946f06aa947caf33a9000aab5a225);
+            ).addTo(map_aa54c4db6ccc493b955d186b3e68c6b2);
         
     
-            var icon_027fda3e1b31dcb541005915a3271a2d = L.AwesomeMarkers.icon(
+            var icon_637456708f29e42a8ba7ea09cd856ce6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_9388af09bd3428e6d4c28fe1a3a27ecd.setIcon(icon_027fda3e1b31dcb541005915a3271a2d);
+            marker_828c10122af3f1dc58feb4652de2a067.setIcon(icon_637456708f29e42a8ba7ea09cd856ce6);
         
     
-        var popup_5d955d64be8fb03eadaea396aeffb703 = L.popup({"maxWidth": 700});
+        var popup_25c10517836d77377b9d3d176be7f60f = L.popup({"maxWidth": 700});
 
         
             
-                var html_9eb8deaab166c1d4164e98f9dde1795a = $(`<div id="html_9eb8deaab166c1d4164e98f9dde1795a" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Toyota HILUX</td>             <td>6107FCY</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>17/10/2023</td>             <td>13/11/2024</td>             <td>8-22509354-X</td>         </tr>                  <tr>             <td>ECOCAR</td>             <td>TF8268AV</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>nan</td>             <td>01/06/2024</td>             <td>8-22165598-W</td>         </tr>         </table></div>`)[0];
-                popup_5d955d64be8fb03eadaea396aeffb703.setContent(html_9eb8deaab166c1d4164e98f9dde1795a);
+                var html_cac25c24d569fd8474062f97c0eb0cbb = $(`<div id="html_cac25c24d569fd8474062f97c0eb0cbb" style="width: 100.0%; height: 100.0%;">     <table style="width: 680px; height: 100px">         <tr>             <th>Modelo</th>             <th>Matricula</th>             <th>Estado</th>             <th>Repostaje</th>             <th>Cambio Aceite</th>             <th>ITV</th>             <th>Poliza Seguro</th>         </tr>              <tr>             <td>Toyota HILUX</td>             <td>6107FCY</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>17/10/2023</td>             <td>13/11/2024</td>             <td>8-22509354-X</td>         </tr>                  <tr>             <td>ECOCAR</td>             <td>TF8268AV</td>             <td style="color: green">ACTIVO</td>             <td>ITER</td>             <td>nan</td>             <td>01/06/2024</td>             <td>8-22165598-W</td>         </tr>         </table></div>`)[0];
+                popup_25c10517836d77377b9d3d176be7f60f.setContent(html_cac25c24d569fd8474062f97c0eb0cbb);
             
         
 
-        marker_9388af09bd3428e6d4c28fe1a3a27ecd.bindPopup(popup_5d955d64be8fb03eadaea396aeffb703)
+        marker_828c10122af3f1dc58feb4652de2a067.bindPopup(popup_25c10517836d77377b9d3d176be7f60f)
         ;
 
         
     
     
-            marker_9388af09bd3428e6d4c28fe1a3a27ecd.bindTooltip(
+            marker_828c10122af3f1dc58feb4652de2a067.bindTooltip(
                 `<div>
                      La Laguna
                  </div>`,
@@ -495,7 +495,7 @@
             );
         
 </script>
-</html></div></body></html><table><tr><th>ID</th><th>Modelo</th><th>Matricula</th><th>Sede</th><th>Propiedad</th><th>Plazas</th><th>Dimensiones (mm)</th><th>Neumaticos</th><th>Poliza seguro</th><th>Aceite</th><th>Cambio aceite</th><th>Proxima ITV</th><th>Donde repostar</th><th>Estado</th><th>Anotaciones</th></tr><tr id="fila-0"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/86KJR.pdf" target="_blank">86KJR</a></td><td class="">Ford RANGER</td><td class="">9286KJR</td><td class="">LP</td><td class="">INVOLCAN</td><td class="">5</td><td class="">5277x1860x1848</td><td class="">M+S 255/70R16 111T o 105H</td><td class="">8-22508799-L</td><td class="">-</td><td class="">23/10/2023</td><td class="" style="">28/03/2025</td><td class="">Los Llanos, PCAN Fuenca / Chasnera</td><td class="INACTIVO">INACTIVO</td><td class="">En taller Cutillas</td></tr><tr id="fila-1"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/75KJR.pdf" target="_blank">75KJR</a></td><td class="">Ford RANGER</td><td class="">9175KJR</td><td class="">Taoro</td><td class="">INVOLCAN</td><td class="">5</td><td class="">5277x1860x1848</td><td class="">M+S 255/70R16 111T o 105H</td><td class="">8-22508792-C</td><td class="">0W30</td><td class="">01/04/2024</td><td class="" style="">23/04/2025</td><td class="">Los Llanos, PCAN Fuenca / Chasnera</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr><tr id="fila-2"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/95KGM.pdf" target="_blank">95KGM</a></td><td class="">Renault Kangoo</td><td class="">5195KGM</td><td class="">Taoro</td><td class="">ITER</td><td class="">5</td><td class="">4282x1829x1898</td><td class="">195/65 R15 91T</td><td class="">8-22509333-W</td><td class="">-</td><td class="">11/09/2023</td><td class="" style="">16/01/2025</td><td class="">ITER, Los Llanos, PCAN Fuenca</td><td class="ACTIVO">ACTIVO</td><td class="">El 22/05 llega al Taoro</td></tr><tr id="fila-3"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/55KGM.pdf" target="_blank">55KGM</a></td><td class="">Renault Kangoo</td><td class="">5155KGM</td><td class="">ITER</td><td class="">ITER</td><td class="">5</td><td class="">4282x1829x1898</td><td class="">195/65 R15 91T</td><td class="">8-22509337-T</td><td class="">-</td><td class="">15/11/2023</td><td class="" style="">16/01/2025</td><td class="">ITER </td><td class="ACTIVO">ACTIVO</td><td class="">Revisar cinturones, aceite, agua parabrisas, neumáticos</td></tr><tr id="fila-4"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/22BHB.pdf" target="_blank">22BHB</a></td><td class="">Renault Master</td><td class="">8122BHB</td><td class="">Taoro</td><td class="">ITER</td><td class="">6</td><td class="">4888x1990x2215</td><td class="">195/65 R16C 104/102R o 102T</td><td class="">8-21635872-Q</td><td class="">5W40</td><td class="">24/08/2023</td><td class="" style="background-color: #ffcccc;">01/10/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">Revisar testigo rojo mix aceite/agua, aguja</td></tr><tr id="fila-5"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/07FCY.pdf" target="_blank">07FCY</a></td><td class="">Toyota HILUX</td><td class="">6107FCY</td><td class="">La Laguna</td><td class="">ITER</td><td class="">5</td><td class="">5255x1760x1810</td><td class="">265 70R15 112T</td><td class="">8-22509354-X</td><td class="">10W40</td><td class="">17/10/2023</td><td class="" style="">13/11/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr><tr id="fila-6"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/268AV.pdf" target="_blank">268AV</a></td><td class="">ECOCAR</td><td class="">TF8268AV</td><td class="">La Laguna</td><td class="">ITER</td><td class="">3</td><td class="">5700x2140x3280</td><td class="">215 R14C 112/110Q-R</td><td class="">8-22165598-W</td><td class="">5W40</td><td class="">nan</td><td class="" style="background-color: #ffcccc;">01/06/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr></table><h2><style>body { font-family: SourceSansPro-Regular, sans-serif; color: #333; font-size: 12px; }h2 { font-size: 14px; text-align: left;}h1 { font-size: 18px; text-align: center;}</style>Teléfono del seguro Catalana Occidente: 902120090. Para solicitar taxi/ambulancia al salir del centro salud, enviar parte médico al fax: 915674358 o email: medico.viaje@asitur.es con el número de expediente en el asunto. Los médicos del seguro valorarán el tipo de transporte.</h2><style 
+</html></div></body></html><table><tr><th>ID</th><th>Modelo</th><th>Matricula</th><th>Sede</th><th>Propiedad</th><th>Plazas</th><th>Dimensiones (mm)</th><th>Neumaticos</th><th>Poliza seguro</th><th>Aceite</th><th>Cambio aceite</th><th>Proxima ITV</th><th>Donde repostar</th><th>Estado</th><th>Anotaciones</th></tr><tr id="fila-0"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/86KJR.pdf" target="_blank">86KJR</a></td><td class="">Ford RANGER</td><td class="">9286KJR</td><td class="">LP</td><td class="">INVOLCAN</td><td class="">5</td><td class="">5277x1860x1848</td><td class="">M+S 255/70R16 111T o 105H</td><td class="">8-22508799-L</td><td class="">-</td><td class="">23/10/2023</td><td class="" style="">28/03/2025</td><td class="">Los Llanos, PCAN Fuenca / Chasnera</td><td class="INACTIVO">INACTIVO</td><td class="">En taller Cutillas</td></tr><tr id="fila-1"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/75KJR.pdf" target="_blank">75KJR</a></td><td class="">Ford RANGER</td><td class="">9175KJR</td><td class="">Taoro</td><td class="">INVOLCAN</td><td class="">5</td><td class="">5277x1860x1848</td><td class="">M+S 255/70R16 111T o 105H</td><td class="">8-22508792-C</td><td class="">0W30</td><td class="">01/04/2024</td><td class="" style="">23/04/2025</td><td class="">Los Llanos, PCAN Fuenca / Chasnera</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr><tr id="fila-2"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/95KGM.pdf" target="_blank">95KGM</a></td><td class="">Renault Kangoo</td><td class="">5195KGM</td><td class="">Taoro</td><td class="">ITER</td><td class="">5</td><td class="">4282x1829x1898</td><td class="">195/65 R15 91T</td><td class="">8-22509333-W</td><td class="">-</td><td class="">11/09/2023</td><td class="" style="">16/01/2025</td><td class="">ITER, Los Llanos, PCAN Fuenca</td><td class="ACTIVO">ACTIVO</td><td class="">El 22/05 llega al Taoro</td></tr><tr id="fila-3"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/55KGM.pdf" target="_blank">55KGM</a></td><td class="">Renault Kangoo</td><td class="">5155KGM</td><td class="">ITER</td><td class="">ITER</td><td class="">5</td><td class="">4282x1829x1898</td><td class="">195/65 R15 91T</td><td class="">8-22509337-T</td><td class="">-</td><td class="">15/11/2023</td><td class="" style="">16/01/2025</td><td class="">ITER </td><td class="ACTIVO">ACTIVO</td><td class="">Revisar cinturones, aceite, agua parabrisas, neumáticos</td></tr><tr id="fila-4"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/22BHB.pdf" target="_blank">22BHB</a></td><td class="">Renault Master</td><td class="">8122BHB</td><td class="">Taoro</td><td class="">ITER</td><td class="">6</td><td class="">4888x1990x2215</td><td class="">195/65 R16C 104/102R o 102T</td><td class="">8-21635872-Q</td><td class="">5W40</td><td class="">24/08/2023</td><td class="" style="">01/10/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">Revisar testigo rojo mix aceite/agua, aguja</td></tr><tr id="fila-5"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/07FCY.pdf" target="_blank">07FCY</a></td><td class="">Toyota HILUX</td><td class="">6107FCY</td><td class="">La Laguna</td><td class="">ITER</td><td class="">5</td><td class="">5255x1760x1810</td><td class="">265 70R15 112T</td><td class="">8-22509354-X</td><td class="">10W40</td><td class="">17/10/2023</td><td class="" style="">13/11/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr><tr id="fila-6"><td class=""><a href="https://github.com/gestion-vehiculos/gestion-vehiculos/blob/main/ficha_tecnica/268AV.pdf" target="_blank">268AV</a></td><td class="">ECOCAR</td><td class="">TF8268AV</td><td class="">La Laguna</td><td class="">ITER</td><td class="">3</td><td class="">5700x2140x3280</td><td class="">215 R14C 112/110Q-R</td><td class="">8-22165598-W</td><td class="">5W40</td><td class="">nan</td><td class="" style="background-color: #ffcccc;">01/06/2024</td><td class="">ITER</td><td class="ACTIVO">ACTIVO</td><td class="">-</td></tr></table><h2><style>body { font-family: SourceSansPro-Regular, sans-serif; color: #333; font-size: 12px; }h2 { font-size: 14px; text-align: left;}h1 { font-size: 18px; text-align: center;}</style>Teléfono del seguro Catalana Occidente: 902120090. Para solicitar taxi/ambulancia al salir del centro salud, enviar parte médico al fax: 915674358 o email: medico.viaje@asitur.es con el número de expediente en el asunto. Los médicos del seguro valorarán el tipo de transporte.</h2><style 
     @media only screen and (max-width: 768px) {
         table {
             font-size: 3vw; /* Ajustar tamaño de letra para pantallas de hasta 768px de ancho */
